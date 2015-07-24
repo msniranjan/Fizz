@@ -14,6 +14,24 @@
 		658CCCD81B5A523900A7D9FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCD71B5A523900A7D9FC /* Images.xcassets */; };
 		658CCCDB1B5A523900A7D9FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCD91B5A523900A7D9FC /* LaunchScreen.xib */; };
 		658CCCE71B5A523A00A7D9FC /* FizzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 658CCCE61B5A523A00A7D9FC /* FizzTests.m */; };
+		658CCCF11B5A526900A7D9FC /* splashscreen-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCF01B5A526900A7D9FC /* splashscreen-logo.png */; };
+		658CCCFA1B5A602300A7D9FC /* FizzPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658CCCF91B5A602300A7D9FC /* FizzPageViewController.m */; };
+		658CCD011B5A690B00A7D9FC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCFB1B5A690B00A7D9FC /* bg.png */; };
+		658CCD021B5A690B00A7D9FC /* info1.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCFC1B5A690B00A7D9FC /* info1.png */; };
+		658CCD041B5A690B00A7D9FC /* infotwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCFE1B5A690B00A7D9FC /* infotwo.png */; };
+		658CCD051B5A690B00A7D9FC /* info4.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCCFF1B5A690B00A7D9FC /* info4.png */; };
+		658CCD061B5A690B00A7D9FC /* login_with_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CCD001B5A690B00A7D9FC /* login_with_facebook.png */; };
+		658CCD081B5A7FE400A7D9FC /* FizzLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658CCD071B5A7FE400A7D9FC /* FizzLaunchScreen.xib */; };
+		65E53D891B5CF5ED00ED4D5C /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65E53D881B5CF5EC00ED4D5C /* splashscreen.jpg */; };
+		65E53D8B1B5D005F00ED4D5C /* info3.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E53D8A1B5D005F00ED4D5C /* info3.png */; };
+		65E7640D1B620A49005C8B68 /* FizzFacebookLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E7640C1B620A49005C8B68 /* FizzFacebookLoginViewController.m */; };
+		65E764101B620DE5005C8B68 /* FizzFacebookProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E7640F1B620DE5005C8B68 /* FizzFacebookProfileViewController.m */; };
+		65E764141B622206005C8B68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E764131B622206005C8B68 /* CoreGraphics.framework */; };
+		65E764181B622243005C8B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E764171B622243005C8B68 /* Foundation.framework */; };
+		65E7641A1B62224E005C8B68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E764191B62224E005C8B68 /* UIKit.framework */; };
+		65E7641E1B622393005C8B68 /* FizzNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E7641C1B622393005C8B68 /* FizzNetworkViewController.m */; };
+		65E7641F1B622393005C8B68 /* FizzNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E7641D1B622393005C8B68 /* FizzNetworkViewController.xib */; };
+		65F51E6B1B60DF8100AEABDB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F51E6A1B60DF8100AEABDB /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,28 @@
 		658CCCE01B5A523A00A7D9FC /* FizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		658CCCE51B5A523A00A7D9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658CCCE61B5A523A00A7D9FC /* FizzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzTests.m; sourceTree = "<group>"; };
+		658CCCF01B5A526900A7D9FC /* splashscreen-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashscreen-logo.png"; sourceTree = "<group>"; };
+		658CCCF81B5A602300A7D9FC /* FizzPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzPageViewController.h; sourceTree = SOURCE_ROOT; };
+		658CCCF91B5A602300A7D9FC /* FizzPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzPageViewController.m; sourceTree = SOURCE_ROOT; };
+		658CCCFB1B5A690B00A7D9FC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		658CCCFC1B5A690B00A7D9FC /* info1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info1.png; sourceTree = "<group>"; };
+		658CCCFE1B5A690B00A7D9FC /* infotwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infotwo.png; sourceTree = "<group>"; };
+		658CCCFF1B5A690B00A7D9FC /* info4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info4.png; sourceTree = "<group>"; };
+		658CCD001B5A690B00A7D9FC /* login_with_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_facebook.png; sourceTree = "<group>"; };
+		658CCD071B5A7FE400A7D9FC /* FizzLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FizzLaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		65E53D881B5CF5EC00ED4D5C /* splashscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashscreen.jpg; sourceTree = "<group>"; };
+		65E53D8A1B5D005F00ED4D5C /* info3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info3.png; sourceTree = "<group>"; };
+		65E7640B1B620A49005C8B68 /* FizzFacebookLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzFacebookLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		65E7640C1B620A49005C8B68 /* FizzFacebookLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzFacebookLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		65E7640E1B620DE5005C8B68 /* FizzFacebookProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzFacebookProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		65E7640F1B620DE5005C8B68 /* FizzFacebookProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzFacebookProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		65E764131B622206005C8B68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65E764171B622243005C8B68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65E764191B62224E005C8B68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65E7641B1B622393005C8B68 /* FizzNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzNetworkViewController.h; sourceTree = SOURCE_ROOT; };
+		65E7641C1B622393005C8B68 /* FizzNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzNetworkViewController.m; sourceTree = SOURCE_ROOT; };
+		65E7641D1B622393005C8B68 /* FizzNetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FizzNetworkViewController.xib; sourceTree = SOURCE_ROOT; };
+		65F51E6A1B60DF8100AEABDB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E7641A1B62224E005C8B68 /* UIKit.framework in Frameworks */,
+				65E764181B622243005C8B68 /* Foundation.framework in Frameworks */,
+				65E764141B622206005C8B68 /* CoreGraphics.framework in Frameworks */,
+				65F51E6B1B60DF8100AEABDB /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +125,21 @@
 		658CCCC91B5A523900A7D9FC /* Fizz */ = {
 			isa = PBXGroup;
 			children = (
+				658CCCD41B5A523900A7D9FC /* Main.storyboard */,
+				658CCD071B5A7FE400A7D9FC /* FizzLaunchScreen.xib */,
 				658CCCCE1B5A523900A7D9FC /* AppDelegate.h */,
 				658CCCCF1B5A523900A7D9FC /* AppDelegate.m */,
+				65E7641B1B622393005C8B68 /* FizzNetworkViewController.h */,
+				65E7641C1B622393005C8B68 /* FizzNetworkViewController.m */,
+				65E7641D1B622393005C8B68 /* FizzNetworkViewController.xib */,
+				65E7640E1B620DE5005C8B68 /* FizzFacebookProfileViewController.h */,
+				65E7640F1B620DE5005C8B68 /* FizzFacebookProfileViewController.m */,
+				65E7640B1B620A49005C8B68 /* FizzFacebookLoginViewController.h */,
+				65E7640C1B620A49005C8B68 /* FizzFacebookLoginViewController.m */,
 				658CCCD11B5A523900A7D9FC /* ViewController.h */,
 				658CCCD21B5A523900A7D9FC /* ViewController.m */,
-				658CCCD41B5A523900A7D9FC /* Main.storyboard */,
+				658CCCF81B5A602300A7D9FC /* FizzPageViewController.h */,
+				658CCCF91B5A602300A7D9FC /* FizzPageViewController.m */,
 				658CCCD71B5A523900A7D9FC /* Images.xcassets */,
 				658CCCD91B5A523900A7D9FC /* LaunchScreen.xib */,
 				658CCCCA1B5A523900A7D9FC /* Supporting Files */,
@@ -96,6 +150,18 @@
 		658CCCCA1B5A523900A7D9FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65F51E6A1B60DF8100AEABDB /* FacebookSDK.framework */,
+				65E764131B622206005C8B68 /* CoreGraphics.framework */,
+				65E764171B622243005C8B68 /* Foundation.framework */,
+				65E764191B62224E005C8B68 /* UIKit.framework */,
+				658CCCF01B5A526900A7D9FC /* splashscreen-logo.png */,
+				65E53D881B5CF5EC00ED4D5C /* splashscreen.jpg */,
+				658CCD001B5A690B00A7D9FC /* login_with_facebook.png */,
+				658CCCFB1B5A690B00A7D9FC /* bg.png */,
+				658CCCFC1B5A690B00A7D9FC /* info1.png */,
+				658CCCFE1B5A690B00A7D9FC /* infotwo.png */,
+				65E53D8A1B5D005F00ED4D5C /* info3.png */,
+				658CCCFF1B5A690B00A7D9FC /* info4.png */,
 				658CCCCB1B5A523900A7D9FC /* Info.plist */,
 				658CCCCC1B5A523900A7D9FC /* main.m */,
 			);
@@ -168,6 +234,7 @@
 				TargetAttributes = {
 					658CCCC61B5A523900A7D9FC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = U68BNBJ7P2;
 					};
 					658CCCDF1B5A523A00A7D9FC = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,9 +266,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658CCD011B5A690B00A7D9FC /* bg.png in Resources */,
 				658CCCD61B5A523900A7D9FC /* Main.storyboard in Resources */,
+				65E53D891B5CF5ED00ED4D5C /* splashscreen.jpg in Resources */,
+				658CCCF11B5A526900A7D9FC /* splashscreen-logo.png in Resources */,
+				658CCD041B5A690B00A7D9FC /* infotwo.png in Resources */,
 				658CCCDB1B5A523900A7D9FC /* LaunchScreen.xib in Resources */,
 				658CCCD81B5A523900A7D9FC /* Images.xcassets in Resources */,
+				658CCD081B5A7FE400A7D9FC /* FizzLaunchScreen.xib in Resources */,
+				658CCD021B5A690B00A7D9FC /* info1.png in Resources */,
+				658CCD051B5A690B00A7D9FC /* info4.png in Resources */,
+				658CCD061B5A690B00A7D9FC /* login_with_facebook.png in Resources */,
+				65E7641F1B622393005C8B68 /* FizzNetworkViewController.xib in Resources */,
+				65E53D8B1B5D005F00ED4D5C /* info3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E764101B620DE5005C8B68 /* FizzFacebookProfileViewController.m in Sources */,
 				658CCCD31B5A523900A7D9FC /* ViewController.m in Sources */,
+				65E7641E1B622393005C8B68 /* FizzNetworkViewController.m in Sources */,
+				65E7640D1B620A49005C8B68 /* FizzFacebookLoginViewController.m in Sources */,
 				658CCCD01B5A523900A7D9FC /* AppDelegate.m in Sources */,
+				658CCCFA1B5A602300A7D9FC /* FizzPageViewController.m in Sources */,
 				658CCCCD1B5A523900A7D9FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +428,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/DazeCorp/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Fizz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,9 +447,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/DazeCorp/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Fizz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +515,7 @@
 				658CCCEC1B5A523A00A7D9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		658CCCED1B5A523A00A7D9FC /* Build configuration list for PBXNativeTarget "FizzTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +524,7 @@
 				658CCCEF1B5A523A00A7D9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

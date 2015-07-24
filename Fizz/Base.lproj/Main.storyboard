@@ -1,25 +1,196 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-158" y="31"/>
+        </scene>
+        <!--Fizz Facebook Llogin View Controller-->
+        <scene sceneID="rLZ-3K-0jg">
+            <objects>
+                <viewController storyboardIdentifier="fizzfbloginviewcontoller" id="EjK-qb-8ct" customClass="FizzFacebookLloginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lz1-uA-zEL"/>
+                        <viewControllerLayoutGuide type="bottom" id="aoH-xE-7TG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U5J-ur-Dl0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splashscreen-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lLe-VZ-RvV">
+                                <rect key="frame" x="139" y="208" width="153" height="109"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6wC-f8-raS">
+                                <rect key="frame" x="37" y="438" width="298" height="138"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kk9-0D-IdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="42"/>
+        </scene>
+        <!--Fizz Facebook Profile View Controller-->
+        <scene sceneID="5Dl-4q-xk2">
+            <objects>
+                <viewController storyboardIdentifier="fizzfbprofileviewcontroller" id="FlK-W6-OZT" customClass="FizzFacebookProfileViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zhq-gh-pg8"/>
+                        <viewControllerLayoutGuide type="bottom" id="w1z-yZ-hTZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GMZ-rB-FVA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtU-KP-6cc">
+                                <rect key="frame" x="172" y="44" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uo4-yP-kHR">
+                                <rect key="frame" x="165" y="373" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NtG-yR-j2Z" customClass="FBLoginView">
+                                <rect key="frame" x="26" y="506" width="281" height="107"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAq-1g-VmP" customClass="FBProfilePictureView">
+                                <rect key="frame" x="90" y="132" width="207" height="161"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MON-fP-FTf">
+                                <rect key="frame" x="165" y="420" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="fizzfbemail" destination="MON-fP-FTf" id="4yl-dB-cAz"/>
+                        <outlet property="fizzfbimage" destination="vAq-1g-VmP" id="CR5-iU-nQR"/>
+                        <outlet property="fizzfbloginstatus" destination="QtU-KP-6cc" id="AgF-qC-bom"/>
+                        <outlet property="fizzfbuser" destination="Uo4-yP-kHR" id="Ipj-GE-EfW"/>
+                        <outlet property="fizzlogoutbutton" destination="NtG-yR-j2Z" id="G9E-oQ-cOe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fD1-YB-ocL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="42"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="biG-hP-qRU">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="currentContext" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="GMK-cq-STb" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BT4-1I-5QT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="31"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="q0B-54-Vo1">
+            <objects>
+                <viewController storyboardIdentifier="fizzfblogin" id="kF3-Up-8KG" customClass="FizzFacebookLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ib3-QP-PAA"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJI-pm-3dE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EKy-Ja-fde">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info4.png" translatesAutoresizingMaskIntoConstraints="NO" id="SDb-Em-MSi">
+                                <rect key="frame" x="101" y="153" width="134" height="124"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVO-aC-FHz" customClass="FBLoginView">
+                                <rect key="frame" x="65" y="343" width="207" height="93"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="t0g-sx-gJ5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="fizzimgfb" destination="SDb-Em-MSi" id="czJ-wf-uRC"/>
+                        <outlet property="fizzloginbutton" destination="hVO-aC-FHz" id="e5J-ph-A7S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgx-Qe-HTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="839"/>
+        </scene>
+        <!--Fizz Page View Controller-->
+        <scene sceneID="caX-mT-wfO">
+            <objects>
+                <viewController storyboardIdentifier="FizzPageViewController" modalPresentationStyle="pageSheet" id="FEs-Y7-3K6" customClass="FizzPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="drH-HY-JVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="L04-4R-1k3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="Bw9-sF-7lr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ywf-Ad-1Cq">
+                                <rect key="frame" x="53" y="89" width="220" height="197"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="clip" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-T7-vdU">
+                                <rect key="frame" x="53" y="294" width="220" height="114"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_with_facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="XPQ-P2-LQs">
+                                <rect key="frame" x="31" y="459" width="264" height="43"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="finninfolabel" destination="f3a-T7-vdU" id="Nxt-Qb-bmp"/>
+                        <outlet property="fizzinfobackgroundImageView" destination="Ywf-Ad-1Cq" id="Rcy-Qb-7oH"/>
+                        <outlet property="fizzloginUiIimage" destination="XPQ-P2-LQs" id="AvP-je-fiu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zHh-Rl-Wy8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="846"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="info3.png" width="358" height="358"/>
+        <image name="info4.png" width="362" height="343"/>
+        <image name="login_with_facebook.png" width="552" height="78"/>
+        <image name="splashscreen-logo.png" width="351" height="140"/>
+    </resources>
 </document>
